@@ -1080,3 +1080,7 @@ and its position within the container
 #u_0_3 {
 	color: #fff;
 }
+
+@media ( min-width: 400px;) {
+	line-height: 1.5em;
+}
