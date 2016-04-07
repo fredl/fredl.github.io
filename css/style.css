@@ -8,8 +8,8 @@
 
 body
 {
-	/*background: #000;*/
-	background: #F8F8F8;
+	background: #000;
+	/*background: #F8F8F8;*/
 	-webkit-font-smoothing: antialiased;
 }
 
@@ -882,7 +882,8 @@ input[type="reset"].alt:hover,
 
 .main > header
 {
-	background: #fff;
+	background: #000;
+	/*background: #fff;*/
 	text-align: center;
 	padding: 5em 0 5em 0;
 	margin: 0;
@@ -890,7 +891,8 @@ input[type="reset"].alt:hover,
 
 .main > header h2
 {
-	color: #212121;
+	color: #f7f7f7;
+	/*color: #212121;*/
 	font-size: 2.25em;
 	font-weight: 400;
 	margin-bottom: 0;
@@ -900,7 +902,8 @@ input[type="reset"].alt:hover,
 {
 	margin: 2em 0 0 0;
 	padding: 0;
-	text-align: center;
+	text-align: left;
+	/*text-align: center;*/
 }
 
 .main > .content
@@ -1058,14 +1061,4 @@ and its position within the container
 	width: 100%;
 	height: 100%;
 }
-
-
-
-
-
-
-
-
-
-
 
