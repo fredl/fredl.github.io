@@ -922,7 +922,8 @@ input[type="reset"].alt:hover,
 
 .main > .content.dark
 {
-	background: #433;
+	background: #OOO;
+	/*background: #433;*/
 }
 
 /*more gradients*/
