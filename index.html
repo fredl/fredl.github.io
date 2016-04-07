@@ -39,23 +39,14 @@
   </style>
 </head>
 <body>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : '1066437356762037',
-          xfbml      : true,
-          version    : 'v2.5'
-        });
-      };
-
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/en_US/sdk.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
-    </script>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.5&appId=1066437356762037";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
   <!-- Header -->
   <section id="header" class="dark">
@@ -80,7 +71,7 @@
           <br>
           L’album « C’est Personnel », enregistré en Suède, Malmö, chez Toré Johansson (The Cardigans, Franz Ferdinand...) dont il est réalisateur mais aussi co-producteur avec Sylvie Hoarau de Brigitte sort le 6 juin 2016. Premier extrait : « Je suis un garçon sensible » avec la voix de Philippe Katerine </p>
         </div>
-        <div class="fb-like" data-share="true" data-width="450" data-show-faces="true"></div>
+        <div class="fb-like" data-href="https://www.facebook.com/NataliaMoscouMusic" data-width="250" data-layout="standard" data-action="recommend" data-show-faces="true" data-share="true"></div>
       </header>
     </section>
 
