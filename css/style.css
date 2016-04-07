@@ -813,7 +813,7 @@ input[type="reset"].alt:hover,
 {
 	position: relative;
 	margin: 0;
-	background-image:			url('images/overlay.png'),			url('../img/overlay.png');
+	background-image:			url('images/overlay.png'),			url('images/overlay.png');
 	background-size:			auto,								cover;
 	background-position:		top left,							center center;
 	background-repeat:			repeat,								no-repeat;
@@ -1081,6 +1081,11 @@ and its position within the container
 	color: #fff;
 }
 
-@media ( min-width: 400px;) {
-	line-height: 1.5em;
-}
+/*@media ( min-width: 400px;) {*/
+	.dark input[type="button"],
+	.dark input[type="submit"],
+	.dark input[type="reset"],
+	.dark .button {
+		margin-bottom: 15px;
+	}
+/*}*/
