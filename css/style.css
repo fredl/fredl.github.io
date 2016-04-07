@@ -930,6 +930,20 @@ input[type="reset"].alt:hover,
 /*linear-gradient(45deg, #006c27, #003639, #001540);*/
 /*linear-gradient(45deg, #fbfacf, #89ffe7, #97cfff);*/
 
+.main > .content.style0
+{
+	background:	url('images/bgtr.svg') top right no-repeat,
+	url('images/bgbl.svg') bottom left no-repeat,
+	url('images/bgbl.svg') bottom left no-repeat,
+	url('images/overlay.png'),
+	linear-gradient(45deg, #b39c68, #a56365, #412e4c);
+}
+.main > .content.style0 section p {
+	font-weight: 300; font-style: italic;
+	color: white;
+	line-height: 1.5em
+}
+
 .main > .content.style1
 {
 	background:	url('images/bgtr.svg') top right no-repeat,
