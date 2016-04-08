@@ -922,7 +922,7 @@ input[type="reset"].alt:hover,
 
 .main > .content.dark
 {
-	background: #OOO;
+	background: #000;
 	/*background: #433;*/
 }
 
@@ -1081,11 +1081,64 @@ and its position within the container
 	color: #fff;
 }
 
-/*@media ( min-width: 400px;) {*/
-	.dark input[type="button"],
-	.dark input[type="submit"],
-	.dark input[type="reset"],
-	.dark .button {
-		margin-bottom: 15px;
+.dark input[type="button"],
+.dark input[type="submit"],
+.dark input[type="reset"],
+.dark .button {
+	margin-bottom: 15px;
+}
+
+/*iPhone 6 Portrait*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : portrait) {
+	button {
+		outline:0 !important;
 	}
-/*}*/
+}
+
+/*iPhone 6 landscape*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) {
+	button {
+		outline:0 !important;
+	}
+}
+
+/*iPhone 6+ Portrait*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : portrait) {
+	button {
+		outline:0 !important;
+	}
+}
+
+/*iPhone 6+ landscape*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation : landscape) {
+	button {
+		outline:0 !important;
+	}
+}
+
+/*iPhone 6 and iPhone 6+ portrait and landscape*/
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px){
+	button {
+		outline:0 !important;
+	}
+}
+
+/*iPhone 6 and iPhone 6+ portrait*/
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px) and (orientation : portrait){
+	button {
+		outline:0 !important;
+	}
+}
+
+/*iPhone 6 and iPhone 6+ landscape*/
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px) and (orientation : landscape){
+	button {
+		outline:0 !important;
+	}
+}
+.container {
+	margin: 0 auto;
+}
+* {
+	text-align:center
+}
