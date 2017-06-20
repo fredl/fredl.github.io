@@ -9,8 +9,39 @@
 body
 {
 	background: #000;
-	/*background: #F8F8F8;*/
+	background-image: url('../img/bg/fond1.png');
 	-webkit-font-smoothing: antialiased;
+}
+
+a.nodeco {
+	text-decoration:none;
+	margin-bottom: 10px;
+}
+
+.bg-fond-1 {
+	background-image: url('../img/bg/fond1.png');
+}
+.bg-fond-2 {
+	background-image: url('../img/bg/fond2.png');
+}
+.bg-fond-3 {
+	background-image: url('../img/bg/fond3.png');
+}
+.bg-fond-4 {
+	background-image: url('../img/bg/fond4.png');
+}
+
+#news-img,
+#concerts-img,
+#photos-img,
+#videos-img,
+#biographie-img {
+	height: 40px;
+}
+
+
+.menu-list ul > li > img{
+	height: 50px;
 }
 
 body.is-loading *
@@ -883,6 +914,7 @@ input[type="reset"].alt:hover,
 .main > header
 {
 	background: #000;
+	background-image: url('../img/bg/fond2.png');
 	/*background: #fff;*/
 	text-align: center;
 	padding: 5em 0 5em 0;
@@ -932,11 +964,12 @@ input[type="reset"].alt:hover,
 
 .main > .content.style0
 {
+	background:	url('images/bgtr.svg') top right no-repeat;
 	/*background:	url('images/bgtr.svg') top right no-repeat,*/
 	/*url('images/bgbl.svg') bottom left no-repeat,*/
 	/*url('images/bgbl.svg') bottom left no-repeat,*/
 	/*url('images/overlay.png'),*/
-	linear-gradient(45deg, #b39c68, #a56365, #412e4c);
+/* 	linear-gradient(45deg, #b39c68, #a56365, #412e4c); */
 }
 .main > .content.style0 section p {
 	font-weight: 300; font-style: italic;
@@ -1142,3 +1175,6 @@ and its position within the container
 * {
 	text-align:center
 }
+
+
+/* AJOUT PARALLAX */
