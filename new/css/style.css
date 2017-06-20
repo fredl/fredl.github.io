@@ -18,6 +18,19 @@ a.nodeco {
 	margin-bottom: 10px;
 }
 
+.bg-fond-1 {
+	background-image: url('../img/bg/fond1.png');
+}
+.bg-fond-2 {
+	background-image: url('../img/bg/fond2.png');
+}
+.bg-fond-3 {
+	background-image: url('../img/bg/fond3.png');
+}
+.bg-fond-4 {
+	background-image: url('../img/bg/fond4.png');
+}
+
 #news-img,
 #concerts-img,
 #photos-img,
@@ -951,11 +964,12 @@ input[type="reset"].alt:hover,
 
 .main > .content.style0
 {
+	background:	url('images/bgtr.svg') top right no-repeat;
 	/*background:	url('images/bgtr.svg') top right no-repeat,*/
 	/*url('images/bgbl.svg') bottom left no-repeat,*/
 	/*url('images/bgbl.svg') bottom left no-repeat,*/
 	/*url('images/overlay.png'),*/
-	linear-gradient(45deg, #b39c68, #a56365, #412e4c);
+/* 	linear-gradient(45deg, #b39c68, #a56365, #412e4c); */
 }
 .main > .content.style0 section p {
 	font-weight: 300; font-style: italic;
