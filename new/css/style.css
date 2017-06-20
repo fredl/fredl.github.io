@@ -18,6 +18,15 @@ a.nodeco {
 	margin-bottom: 10px;
 }
 
+#news-img,
+#concerts-img,
+#photos-img,
+#videos-img,
+#biographie-img {
+	width: 17%,
+}
+
+
 .menu-list ul > li > img{
 	height: 50px;
 }
